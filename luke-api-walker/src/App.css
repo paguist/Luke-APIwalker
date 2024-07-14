@@ -1,0 +1,56 @@
+/* Estilos generales  */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #363434;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100px; 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #2c2929;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  
+}
+
+/* Estilos específicos */
+.MenuDesplegable,
+.CampoDeEntrada,
+button {
+  margin: 10px;
+  padding: 10px;
+  width: 150px; 
+  font-size: 20px; 
+}
+
+.CampoDeEntrada {
+  width: 100px; 
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
